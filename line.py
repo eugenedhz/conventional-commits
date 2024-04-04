@@ -1,12 +1,12 @@
-import typing
+from typing import NamedTuple
 
 
-class Point(typing.NamedTuple):
+class Point(NamedTuple):
 	x: int
 	y : int
 
 
-class Line(typing.NamedTuple):
+class Line(NamedTuple):
 	start: Point
 	end: Point
 
