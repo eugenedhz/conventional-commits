@@ -74,7 +74,11 @@ It should be followed with a linebreak (\n) after the title of commit.
 
 Body contains free-format text, so there's no rules of how to write them.
 
-### 4. Footer
+### 5. Footer
+
+Footer is unnecessary, but sometimes it can be useful to:
+- describe breaking change
+- make references on reviewer or issue etc.
 
 It should be followed with a linebreak (\n) after the title of commit or its body if it's in present.
 
