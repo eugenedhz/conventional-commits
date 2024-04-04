@@ -3,7 +3,7 @@ from typing import NamedTuple
 
 class Point(NamedTuple):
 	x: int | float
-	y : int | float
+	y: int | float
 
 
 class Line(NamedTuple):
