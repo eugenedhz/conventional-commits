@@ -1,13 +1,5 @@
 # Conventional Commits
 
-## This repo is an example of how to write commit messages.
-
-The structure is pretty simple.
-
-We have main.py program that uses files from pkg to do some logic of:
-- Calculating length of a line given its two points
-- Calculating circle's square given its radius of `Line` class
-
 ## Why you should use them?
 
 - Conventional Commits encourages us to make more of certain types of commits such as fixes.
@@ -58,3 +50,11 @@ Add BREAKING CHANGE in the description if there is a significant change.
 - Use imperative, and present tense: "change" not "changed" or "changes"
 - Don't use capitals in front of the sentence
 - Don't add full stop (.) at the end of the sentence
+
+## This repo is an example of how to write conventional commit messages.
+
+The structure od this repo is pretty simple.
+
+We have main.py program that uses files from pkg to do some logic of:
+- Calculating length of a line given its two points
+- Calculating circle's square given its radius of `Line` class
