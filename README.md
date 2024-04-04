@@ -1,5 +1,13 @@
 # Conventional Commits
 
+## This repo is an example of how to write commit messages.
+
+The structure is pretty simple.
+
+We have main.py program that uses files from pkg to do some logic of:
+- Calculating length of a line given its two points
+- Calculating circle's square given its radius of `Line` class
+
 ## Why you should use them?
 
 - Conventional Commits encourages us to make more of certain types of commits such as fixes.
