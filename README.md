@@ -70,11 +70,13 @@ Description must fully explain what is being done.
 Body is unnecessary, but sometimes it can be useful, when description is very long
 and there can be some additional explanations on what's added or changed.
 
-it should be followed with a linebreak (\n) after the title of commit.
+It should be followed with a linebreak (\n) after the title of commit.
 
 Body contains free-format text, so there's no rules of how to write them.
 
 ### 4. Footer
+
+It should be followed with a linebreak (\n) after the title of commit or its body if it's in present.
 
 For example we can add BREAKING CHANGE footer like:
 
