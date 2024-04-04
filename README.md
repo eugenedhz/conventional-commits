@@ -22,8 +22,14 @@ Links of official docs:
 
 ### Format
  
-`<type>(optional scope): <description>`
-Example: `feat(pre-event): add speakers section`
+```
+<type>(optional scope): <description>
+
+<optional body>
+
+<optional footer>
+```
+
  
 ### 1. Type
  
@@ -38,18 +44,18 @@ Available types are:
 - revert   → When reverting commits
 - perf     → Fixing something regarding performance (deriving state, using memo, callback)
 - hotfix   → Fixing something in the master branch
+
+We can add "!" character like `<type>!` or `<type>(optional scope)!` to draw attention to a commit.
  
 ### 2. Optional Scope
  
-Labels per page Ex: `feat(pre-event): add date label`
+Labels per page Ex: `feat(pkg): add json-parser`
  
 **If there is no scope needed, you don't need to write it**
  
 ### 3. Description
  
 Description must fully explain what is being done.
- 
-Add BREAKING CHANGE in the description if there is a significant change.
  
 **If there are multiple changes, then commit one by one**
  
@@ -58,3 +64,24 @@ Add BREAKING CHANGE in the description if there is a significant change.
 - Use imperative, and present tense: "change" not "changed" or "changes"
 - Don't use capitals in front of the sentence
 - Don't add full stop (.) at the end of the sentence
+
+### 4. Body
+
+Body is unnecessary, but sometimes it can be useful, when description is very long
+and there can be some additional explanations on what's added or changed.
+
+it should be followed with a linebreak (\n) after the title of commit.
+
+Body contains free-format text, so there's no rules of how to write them.
+
+### 4. Footer
+
+For example we can add BREAKING CHANGE footer like:
+
+```
+feat(api): add object serialization
+
+It will be in api/responses.py file, it is shared with all routes.
+
+BREAKING CHANGE: Now we serialize objects with serialize_object() function for a response.
+```
