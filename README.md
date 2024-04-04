@@ -1,9 +1,7 @@
 # Conventional Commits
 
-----------------------
-
 ## Why you should use them?
--------------
+
 - Conventional Commits encourages us to make more of certain types of commits such as fixes.
 - Hack freely and make sense of your changes later.
 - Let other people quickly understand, what your commit is about without looking at actual pushed changes.
