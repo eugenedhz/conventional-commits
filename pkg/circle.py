@@ -1,4 +1,3 @@
-from typing import NamedTuple
 from math import pi
 
 
