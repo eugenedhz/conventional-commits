@@ -37,7 +37,7 @@ Available types are:
  
 Labels per page Ex: `feat(pre-event): add date label`
  
-\*If there is no scope needed, you don't need to write it
+*If there is no scope needed, you don't need to write it*
  
 ### 3. Description
  
